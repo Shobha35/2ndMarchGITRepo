@@ -90,9 +90,9 @@ public class StepDefinition2 extends BaseClass2{
 	@Given("user is on the homepage of the application")
 	public void user_is_on_the_homepage_of_the_application() {
 		getTitle();
-		 System.out.println("+++++++++++++++++++++++++++++++++++++++++");
-		System.out.println("user is on the homepage of the application");
-		System.out.println("+++++++++++++++++++++++++++++++++++++++++");
+		//  System.out.println("+++++++++++++++++++++++++++++++++++++++++");
+		// System.out.println("user is on the homepage of the application");
+		// System.out.println("+++++++++++++++++++++++++++++++++++++++++");
 	}
 
 	@Given("user clicks on New Customer link")
