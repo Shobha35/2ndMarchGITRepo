@@ -1,33 +1,6 @@
 package StepDefinition2;
 
-//import java.io.File;
-//import java.io.IOException;
-//import java.time.Duration;
-//import java.util.List;
-//
-//import org.openqa.selenium.Alert;
-//import org.openqa.selenium.By;
-//import org.openqa.selenium.TakesScreenshot;
-//import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.WebElement;
-//import org.openqa.selenium.support.ui.ExpectedConditions;
-//import org.openqa.selenium.support.ui.WebDriverWait;
-//
-//import com.mongodb.MapReduceCommand.OutputType;
 
-//import org.apache.commons.io.FileUtils;
-//import org.junit.Assert; 
-//import PageRepogitory.LogOutPage;
-//import PageRepogitory.LoginPage;
-//import PageRepogitory.NewAccount;
-//import PageRepogitory.NewCustomer;
-//import Utilities2.BaseClass2;
-//import Utilities2.FetchDataFromExcelFile;
-//import io.cucumber.java.Before;
-//import io.cucumber.java.en.And;
-//import io.cucumber.java.en.Given;
-//import io.cucumber.java.en.Then;
-//import io.cucumber.java.en.When;
 
 
 import java.io.File;
@@ -120,6 +93,10 @@ public class StepDefinition2 extends BaseClass2{
 	@Given("user is on the homepage of the application")
 	public void user_is_on_the_homepage_of_the_application() {
 		getTitle();
+		System.out.println("===========================================");
+	   System.out.println("user is on the homepage of the application");
+	   System.out.println("===========================================");
+		
 	}
 
 	@Given("user clicks on New Customer link")
