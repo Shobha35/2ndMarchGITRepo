@@ -3,8 +3,8 @@ Feature: Creation of new Customer
 
   Background: 
     Given User opens the browser URL
-    And user enters the username as "mngr654993"
-    And user enters the password as "eqUsEdu"
+    And user enters the username as "mngr658417"
+    And user enters the password as "nutUqeh"
     When user clicks on login button
 
   Scenario: Create new customer with all details using DataTable
