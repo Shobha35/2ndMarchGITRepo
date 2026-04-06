@@ -6,4 +6,4 @@ Feature: Login functionality for demo Guru99.com
 
     Examples: 
       | username   | password |
-      | mngr654993 | eqUsEdu  |
+      | mngr658417 | nutUqeh  |
